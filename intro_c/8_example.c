@@ -1,3 +1,5 @@
+// Compile with gcc -Wall -o 8_example 8_example.c
+
 #include <stdio.h>
 
 void funcion(int a, int b); /* prototype */
