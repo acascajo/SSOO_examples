@@ -3,15 +3,15 @@
 #include <stdio.h>
 
 int main(int argc, char *argv[]) {
-  int x;   /* variable de tipo entero */
-  int y;   /* variable de tipo entero */
-  int *px; /* variable de tipo
-              puntero a entero */
+  int x;   /* var of type int */
+  int y;   /* variable of type int */
+  int *px; /* variable of type
+              pointer to int */
 
   x = 5;
-  px = &x; /* asigna a px la direccion de x */
-  y = *px; /* asigna a y el contenido de la
-              direccion almacenada en px */
+  px = &x; /* assigns to px the address of x */
+  y = *px; /* assigns to y the content of the
+              address stored in px */
 
   printf("x = %d\n", x);
   printf("y = %d\n", y);

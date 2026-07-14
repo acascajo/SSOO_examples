@@ -3,16 +3,16 @@
 #include <stdio.h>
 #define PI 3.141593
 
-/* Programa que calcula el area de 
-         un circulo
+/* Program that calculates the area of 
+         a circle
 main()
 {
    float radio;
  
-   printf("Introduzca el radio: ")
+   printf("Insert the radius: ")
    scanf("%f", radio);
  
    area = PI * radio * Radio;
-   printf("El area del circulo es %5.4f \n", area);
+   printf("The area of the circle is %5.4f \n", area);
 }
  
